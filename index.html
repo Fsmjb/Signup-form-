@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup form</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="form-container">
+        <div class="form-title">
+            <h1>Signup Form</h1>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quo explicabo facilis earum cum pariatur! Porro quidem eum obcaecati maiores nihil!</p>
+        </div>
+        <form action="POST">
+            
+            <label for="Name">Enter Your First Name</label> <br>
+            <input type="text" name="fname"id="fname" placeholder="Ali"> <br>
+            <label for="Name">Enter Your Second Name</label> <br>
+            <input type="text" name="sname" id="sname" placeholder="Khan"> <br>
+        
+            <label for="email">Enter your Email<label> <br>
+            <input type="email" name="email" id="email" placeholder="example@gmail.com"> <br>
+            <label for="number">Enter Your Phone Number</label> <br>
+            <input type="tel" name="phone" id="phone" placeholder="03128954957"> <br>
+            <label for="Location">Enter your city Name</label> <br>
+            <input type="text" name="city"id="city" placeholder="your city"> <br>
+            <label for="Location">Enter your Province Name</label> <br>
+            <input type="text" name="province" id="province" placeholder="your province"> <br>
+            <label for="country">Select Your Country Name</label> <br>
+            <select name="country" id="country">
+                <option value="">China<option>
+                <option value="">Turkey<option>
+                <option value="" selected>Pakistan<option>
+                <option value="">Qatar<option>
+            </select> <br>
+            <label for="gender">Select Your Gender</label> <br>
+            <select name="gender" id="gender">
+                <option value="">Male</option>
+                <option value="">Female</option> <br>
+            </select> <br>
+            <input type="submit" name="submit" id="submit"> <br>
+        </form>
+    </div>
+</body>
+</html>
